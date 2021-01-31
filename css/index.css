@@ -1,0 +1,294 @@
+.md{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav{
+    height: 52px;
+    line-height: 52px;
+    font-size: 14px;
+}
+.nav .logo{
+    height: 52px;
+    width: 176px;
+    float: left;
+}
+.nav .logo a img{
+    width: 176px;
+    height: 52px;
+}
+.navcenter{
+    margin-left: 85px;
+    float: left;
+}
+.navcenter a{
+    margin-right: 55px; 
+    text-align: left;
+    color: #2a2a2a;
+}
+.nav .massage{
+    float: right;
+}
+.nav .massage a{
+    margin-left: 35px;
+    color: #666767;
+    position: relative;
+    box-sizing: border-box;
+}
+.navcenter .a1{
+    color: #2B7DD1;
+}
+.nav .massage .cart{
+    width: 24px;
+    height: 22px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.main{
+    /* display: none; */
+    position: absolute;
+    left: -170px;
+    top: 35px;
+    width: 349px;
+    height: 411px;
+    background: rgb(157, 255, 0);
+    /* box-sizing: border-box; */
+}
+.mycart{
+    margin: 0px 17px 0 13px;
+    width: 322px;
+    height: 32px;
+    background: brown; 
+    /* overflow: hidden; */
+   
+}
+.mycart .my{
+    float: left;
+    font-size: 16px;
+    color: #333333;
+    /* margin: 0; */
+}
+.mycart .zero{
+    float: right;
+    font-size: 12px;
+    color: #7D7D7D;
+}
+.massage a:hover .main{
+    display: block;
+}
+.banner{
+    height: 365px;
+    margin-top: 16px;
+    background: #6388be;
+}
+.banner .left{
+    width: 240px;
+    height: 365px;
+    background: #506d98;
+    float: left;
+}
+.banner .right{
+    width: 960px;
+    height: 365px;
+    background: url(../images/banner图1.png) -90px center no-repeat;
+    background-size:contain;
+    float: left;
+}
+.banner ul>li a{
+    height: 73px;
+    line-height: 73px;
+    width: 240px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    color: #FDFDFE;
+}
+.banner ul>li a img{
+    position: relative;
+    left: 28px;
+    top: 0;
+}
+span{
+    display: block;
+    border-bottom: 1px solid #FDFDFE;
+    width: 190px;
+    margin: 0 auto;
+}
+.md .middle h4{
+    margin-top: 39px;
+    margin-bottom: 19px;
+    box-sizing: border-box;
+}
+.middle .mk ul>li{
+    width: 248px;
+    height: 190px;
+    background: url(../images/middle.png) center 0 no-repeat;
+    display: inline-block;
+    margin-right: 64px;
+    box-sizing: border-box;
+    position: relative;
+}
+.middle .mk ul .you{
+    margin-right: 0;
+}
+ul>li .font{
+    width: 255px;
+    height: 112px;
+    position: absolute;
+    left: 0;
+    top: 72px;
+    background: #ffffff;
+    z-index: 111111;
+    overflow: hidden;
+}
+.Vue{
+    color: #1E1E1E;
+    margin: 20px 0 0 15px;
+    display: block;
+}
+.fire{
+    color: #1E1E1E;
+    margin: 6px 0 0 15px;
+    display: block;
+}
+.font .sp{
+    width: 251px;
+    height: 43px;
+    display: block;
+    margin-top: 11px;
+}
+.font .sp .people{
+    float: right;
+    color: #868484;
+    font-size: 12px;
+}
+.font .sp .mon{
+    float: left;
+    color: #C71B1B;
+    font-size: 12px;
+}
+.bottom{
+    height: 468px;
+    background: #f3f5f7;
+    overflow: hidden;
+}
+.index{
+    width: 1200px;
+    height: 380px;
+    margin: 34px 100px 54px 100px;
+}
+.index .web a{
+    width: 224px;
+    height: 380px;
+    background: url(../images/bottomleft.png) center center no-repeat;
+    display: block; 
+}
+.index .web{
+    float: left;
+    margin-right: 17px;
+}
+.dongtai{
+    width: 397px;
+    height: 380px;
+    float: left;
+    margin-right: 17px;
+}
+.dongtaiwangye a{
+    width: 397px;
+    height: 184px;
+    background: url(../images/bottommiddle.png) center center no-repeat;
+    display: block;
+    margin-bottom: 11px;
+}
+.dongtaiwangye2 a{
+    width: 397px;
+    height: 184px;
+    background: url(../images/bottommiddle.png) center center no-repeat;
+    display: block;
+}
+.psd{
+    width: 520px;
+    height: 380px;
+    float: left;
+}
+.psd0,.psd3{
+    float: left;
+}
+.psd .psd1{
+    width: 250px;
+    height: 184px;
+    background: orangered;
+    float: left;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    background: url(../images/bottomright.png) center center no-repeat;
+    background-size: contain;   
+}
+.psd .psd2{
+    width: 250px;
+    height: 184px;
+    background: orangered;
+    float: left;
+    margin-bottom: 12px;
+}
+.psd .psd4{
+    width: 250px;
+    height: 184px;
+    background: orangered;
+    float: left;
+    margin-right: 12px;
+}
+.psd .psd5{
+    width: 250px;
+    height: 184px;
+    background: orangered;
+    float: left;
+}
+.end{
+    height: 272px;
+    background: #2E2E2E;
+}
+.end1{
+    width: 822px;
+    height: 271px;
+    margin-right: 95px;
+    float: left;
+    position: relative;
+}
+.end2{
+    height: 272px;
+    width: 225px;
+    float: left;
+}
+
+ul>.end3{
+    width: 113px;
+    height: 101px;
+    position: absolute;
+    left: 40px;
+    top: 54px;
+    display: inline-block;
+}
+.madd2{
+    margin-left: 180px;
+}
+.madd3{
+    margin-left: 360px;
+}
+.madd4{
+    margin-left: 540px;
+}
+.madd5{
+    margin-left: 720px;
+}
+.end3 h5{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #FEFDFD;
+}
+.end3 h6{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #A3A3A3;
+}
+
